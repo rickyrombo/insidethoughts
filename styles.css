@@ -1,0 +1,22 @@
+html {
+  font-family: "Merriweather", "Georgia", Cambria, "Times New Roman", Times,
+    serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body {
+  max-width: 640px;
+  margin: auto;
+}
+
+article {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px dashed #ccc;
+}

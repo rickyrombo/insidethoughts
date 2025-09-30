@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Inside Thoughts</title>
+  <subtitle>Sharing my inside thoughts outside</subtitle>
+  <link href="https://insidethoughts.me/feed.xml" rel="self" />
+  <link href="https://insidethoughts.me/" />
+  <updated>2025-09-30T08:59:23Z</updated>
+  <id>https://insidethoughts.me/</id>
+  <author>
+    <name>Marcus Pasell</name>
+    <email>marcus@insidethoughts.me</email>
+  </author>
+</feed>
