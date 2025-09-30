@@ -6,7 +6,7 @@ date: git Created
 updated: git Last Modified
 ---
 
-# Who am I?
+## Who am I?
 
 Given that this is the first post on this blog, an introduction is in order.
 
@@ -16,11 +16,11 @@ I am informed mostly through social media, probably like the rest of you. I don'
 
 I'm just a dude with a website. This feels like a necessary disclaimer.
 
-# Why is this here?
+## Why is this here?
 
 I created this site to document and share some of the more sensitive political/philosophical thoughts that I've developed over my lifetime. I wanted to have a place that I owned, that the data was mine. Initially, I thought I wanted to make this a private journal maybe with shared access just among trusted friends. But then something changed that.
 
-# Charlie Kirk
+## Charlie Kirk
 
 Charlie Kirk was assassinated on September 10, 2025. The shooter has since been identified and so far appears to have been motivated by his opposition to Kirk's political views and ideologies. In the wake of his passing, there have been many comments circulating online ranging from sadness and grief to jubilation and glee. There's been calls from top government officials including the Vice President to [punish individuals that are cheering his death](https://www.bbc.com/news/articles/cn0r5y33pj5o).
 
@@ -32,7 +32,7 @@ I did not follow Charlie Kirk very closely. I was aware of him, but hadn't watch
 
 I've seen comments emphasizing how Kirk was a father, and had a wife and kids he left behind. It's supposed to humanize him, and to help the reader remove their possible disdain for Kirk and acknowledge his humanity. It doesn't seem to have worked - I have actually seen [Tik Toks calling for the death of his wife and kids](https://youtu.be/eJENP0Rr8p0?si=JMCHa6Pvb9FORKdO&t=464). And I also want to say this shouldn't need to matter either - he has humanity on his own, regardless of his wife and kids.
 
-# Punching Nazis
+## Punching Nazis
 
 Over 8 years ago, in 2017, [students protested and prevented Charles Murray from speaking at Middlebury College](https://sites.middlebury.edu/presidentialpower/2017/03/04/murray-and-middlebury-what-happened-and-what-should-be-done/). Things got out of control and one faculty member even needed to visit the hospital. I posted an op-ed from the New York Times titled ["The Dangerous Safety of College"](https://www.nytimes.com/2017/03/11/opinion/sunday/the-dangerous-safety-of-college.html) following the event, and it led to some fruitful discussions in the comments with my classmates and friends. I was reminded of this with some of the rhetoric I was hearing on social media following Kirk's assassination. It felt like a different time back then - before the algorithms were so strong, and when you could still have thoughtful, genuine, respectful discussion about current events even if you disagreed.
 
@@ -51,7 +51,7 @@ Escalating to violence can be a release of tension. It can be an explosion of al
 
 While I acknowledge my privilege, I'm still against violence. If you don't agree from a moral standpoint, maybe it's worth looking at its effectiveness and alternatives. Another friend in the comment thread from 2007 had linked to [an article from Vox](https://www.vox.com/identities/2016/11/15/13595508/racism-research-study-trump) that covered a study about how frank conversations were effective at reducing bigotry, and another linked to [Southern Poverty Law Center's guide to responding to bigotry](https://www.splcenter.org/resources/reports/speak-responding-everyday-bigotry/).
 
-# The Slap
+## The Slap
 
 In 2022, Will Smith walked on stage during the Academy Awards and slapped Chris Rock for making a joke at the expense of Jada Pinkett Smith. I remember being shocked in the aftermath of this moment, as I was seeing comments online in defense of Smith. Today while researching writing this, I learned [22% of respondents to a YouGov poll said Smith's actions were acceptable](https://today.yougov.com/topics/entertainment/survey-results/daily/2022/03/28/edb5e/3). This number is far higher than I would expect. I remember being dumbfounded as I read about this being Smith "protecting his family" and some online even said it's a cultural thing, seemingly excusing the violence in support of black culture and racistly implying black people are more violent at the same time. But the most frustrating thing I asaw was that some people were saying that Chris Rock's _words_ were _literal violence_, and Smith was acting in self-defense on behalf of Jada Pinkett Smith. To me that was ludacris, regardless of how hurtful or inappropriate what Chris Rock said. Words are not violence!
 
@@ -61,7 +61,7 @@ My shock about the aftermath at Will Smith's slap comes to mind as I processed m
 
 I can sympathize with Will Smith for wanting to protect his family. I sympathize with the trans community and others for reacting defensively to harmful rhetoric that can have a real impact on their lives. I have to again catch myself and check my own privilege, much like my friend from the earlier called out. I can't say I know what it's like to be in their shoes, and I don't know what they're going through. I don't think most of the people celebrating Kirk's death are even close to carrying out such real violence themselves, but maybe they feel a sense of relief that this person that they've perceived as real threat to them is no longer around. I'm not saying that it's right to celebrate the assassination (and especially post it on social media), but I don't think ignoring this context, being disgusted, and responding with "violence is not the answer" and "violence is never ok" as axioms is helpful. I think it's best to try to understand "Why might a rational, thoughtful person think this?" and see what I learn from it. Of course, we don't always act rationally or thoughtfully, but just making this assumption can reframe and recontextualize a lot of actions and behaviors. In this case, I think I've come to understand how it's likely that they have taken Kirk's words as literal violence and his ideas as direct threats to their existence, our democracy, or both. In short, they believe that a Nazi was shot.
 
-# Who is a Nazi?
+## Who is a Nazi?
 
 It's much easier to write-off your opponents as evil enemies. _Both sides do this._ It's not easy to approach someone with humanity when they have beliefs that differ from your own, _especially_ when those beliefs have a real, tangible, and direct impact on your life and livelihood, or you feel threatened and unsafe. Having these conversations is _not_ easy. But there's problems with the alternative. For one, who draws the line of who is allowed to be murdered?
 
@@ -73,7 +73,7 @@ These movements worked through fear. Once we were afraid, these actions felt jus
 
 I don't think Charlie Kirk was a "Nazi" or "fascist" - though I admit I haven't followed him much. On the surface he seemed like your run-of-the-mill traditional Christian conservative with controversial opinions, but on a large stage. I really think it's worth watching and listening to [the primary sources that are linked to by each article on Snopes](https://www.snopes.com/collections/charlie-kirk-shooting-collection/) and forming your own opinion. Maybe you'll disagree, and that's ok. But I do think we throw around these terms a bit too lightly.
 
-# My fear
+## My fear
 
 For a long while, I was known to post these political thoughts or current events on Facebook. My friends list included thinkers and debaters like me who would engage with each other, most the time with thoughtful remarks and back and forth. This was a wonderful forum. I didn't do it to change anyone else's mind. In fact, the mind that would change the most would be my own. I wanted to see what these people, my friends and family whom I respected, thought on these topics. I just wanted people talking.
 
@@ -87,7 +87,7 @@ And if the employment risk, deplatforming risk, online harassment and defaming w
 
 Something you'll hear from a lot of political commentators, from both sides of the aisle, is that ["this could've been me."](https://www.readtangle.com/the-assassination-of-charlie-kirk/) Charlie was just some _guy_ - sure, he had a huge platform, but he wasn't holding office. He was a podcaster. Some guy with opinions that went around talking and sharing them. His influence was large, don't get me wrong - Trump and Vance both have acknowledged how Kirk helped them get elected - but he's still just some guy going around sharing his ideas.
 
-# This site
+## This site
 
 I had been planning for a while to get back into discussing more hard topics. I used to have a friend group at work that I could discuss all sorts of political events and issues with, and I miss it. Online, things are harder. Facebook has been where I used to have these conversations among friends, but the algorithm has basically ruined the site for me and I know others don't interact with it as much either anymore.
 

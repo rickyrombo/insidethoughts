@@ -1,15 +1,25 @@
 <html>
   <head>
     <title>InsideThoughts</title>
+    <link rel="stylesheet" href="/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <ul>
-      {%- for post in collections.post -%}
-      <li>
-        <a href="{{post.url}}">{{post.data.title}}</a>
-      </li>
-      {%- endfor -%}
-    </ul>
+    <header>
+      <span><a title="Inside Thoughts" href="/">Inside Thoughts</a></span>
+      <span>{{page.date | formatDate}}</span>
+    </header>
+    <nav>
+      <ul>
+        {%- for post in collections.post -%}
+        <li>
+          <a title="{{post.data.title}}" href="{{post.url}}"
+            >{{post.data.title}}</a
+          >
+          <span>{{post.date | formatDate}}</span>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </nav>
   </body>
 </html>

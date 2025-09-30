@@ -5,18 +5,43 @@ html {
   line-height: 1.5;
 }
 
+h1 {
+  flex-basis: 100%;
+}
+
 body {
   max-width: 640px;
   margin: auto;
-}
-
-article {
   padding: 20px;
 }
 
 header {
   display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
   justify-content: space-between;
-  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
   border-bottom: 1px dashed #ccc;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px dashed #ccc;
+}
+
+p {
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: flex;
+  justify-content: space-between;
 }

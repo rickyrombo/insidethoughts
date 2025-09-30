@@ -11,12 +11,16 @@
     </header>
     <nav>
       <h2>Posts</h2>
-      <ul><li>
-          <a title="Why this site exists" href="/posts/charlie-kirk/"
-            >Why this site exists</a
+      <ul>
+        {%- for post in collections.post -%}
+        <li>
+          <a title="{{post.data.title}}" href="{{post.url}}"
+            >{{post.data.title}}</a
           >
-          <span>September 30, 2025</span>
-        </li></ul>
+          <span>{{post.date | formatDate}}</span>
+        </li>
+        {%- endfor -%}
+      </ul>
     </nav>
   </body>
 </html>
