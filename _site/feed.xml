@@ -4,10 +4,16 @@
   <subtitle>Sharing my inside thoughts outside</subtitle>
   <link href="https://insidethoughts.me/feed.xml" rel="self" />
   <link href="https://insidethoughts.me/" />
-  <updated>2025-10-05T09:02:49Z</updated>
+  <updated>2025-09-30T09:00:15Z</updated>
   <id>https://insidethoughts.me/</id>
   <author>
     <name>Marcus Pasell</name>
-    <email>marcus@insidethoughts.me</email>
+    <email>marcus@insidethoughts.me</name>
   </author>
+  <entry>
+    <title>Why this site exists</title>
+    <link href="https://insidethoughts.me/posts/charlie-kirk/" />
+    <updated>2025-09-30T09:00:15Z</updated>
+    <id>https://insidethoughts.me/posts/charlie-kirk/</id>
+  </entry>
 </feed>

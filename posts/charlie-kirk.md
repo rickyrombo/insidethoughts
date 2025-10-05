@@ -1,10 +1,9 @@
 ---
 layout: post.html
-tags: post
+tags: posts
 title: Why this site exists
 date: git Created
 updated: git Last Modified
-password: charlie
 ---
 
 > "I have made this longer than usual because I have not had time to make it shorter." - Blaise Pascal
