@@ -4,6 +4,7 @@
     <title>{{title}} - Inside Thoughts</title>
     <link rel="stylesheet" href="/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/encryptionTools.js" defer></script>
   </head>
   <body>
     <article>
@@ -12,7 +13,95 @@
         <a title="Inside Thoughts" href="/">Inside Thoughts</a>
         <div>{{page.date | formatDate}}</div>
       </header>
-      <div>{{content}}</div>
+      <div id="content"></div>
+      <dialog id="passwordDialog">
+        <p>
+          The content on this website is password protected. The goal with the
+          password primarily to ensure that the pages don't get indexed on
+          search or by AI agents, but also to prevent people from stumbling onto
+          the content by accident. If you don't know the password, you're likely
+          not my target audience.
+        </p>
+        <p>
+          Ideally, I'd share the content with everyone. But I've seen too many
+          times how content that gets outside the intended audience gets
+          misunderstood and misrepresented. I think this is especially true for
+          personal reflections, which is what most of the content here is. If
+          you know me, you have context that helps you understand where I'm
+          coming from. If you don't know me, you don't have that context, and
+          it's easy to misinterpret things and think I'm saying something that
+          I'm not.
+        </p>
+        <p>
+          The password is <em>not</em> meant to make an echo chamber of only
+          people who agree with me. It's meant to ensure that there's some
+          connection between me and the people reading the content. It's
+          obviously quite easy for the password to escape to people that don't
+          know me, so this isn't exactly a secure means to do this, but I'm
+          hopeful that it'll help and I'm willing to guess this blog wasn't going
+          to get viral anyway (that's not really the goal).
+        </p>
+        <p>
+          Enter the password I shared with you below. You should only have to do
+          this once per device.
+        </p>
+        <form id="decryptForm">
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            autofocus
+          />
+          <input type="submit" value="Show Post" />
+        </form>
+      </dialog>
+      <script type="module">
+        import { encryptionTools } from "/encryptionTools.js";
+
+        const localStorageKey = "insidethoughts-password";
+
+        const decryptContent = async (password) => {
+          const encryptedContent = JSON.parse(`{{ content | encrypt }}`);
+          const decryptedContent = await encryptionTools.decrypt(
+            encryptedContent,
+            password
+          );
+          document.getElementById("content").innerHTML = decryptedContent;
+          localStorage.setItem(localStorageKey, password);
+        };
+
+        const dialogEl = document.getElementById("passwordDialog");
+        const formEl = document.getElementById("decryptForm");
+        const passwordEl = document.getElementsByName("password")[0];
+
+        passwordEl.addEventListener("input", () => {
+          passwordEl.setCustomValidity("");
+        });
+
+        formEl.addEventListener("submit", async (e) => {
+          e.preventDefault();
+          const password = e.target.password.value;
+          try {
+            await decryptContent(password);
+            dialogEl.close();
+          } catch (error) {
+            passwordEl.setCustomValidity(
+              "Incorrect password, please try again."
+            );
+            passwordEl.reportValidity();
+            return;
+          }
+        });
+
+        const localPassword = localStorage.getItem(localStorageKey);
+        if (localPassword) {
+          decryptContent(localPassword).catch(() => {
+            document.getElementById("passwordDialog").showModal();
+          });
+        } else {
+          document.getElementById("passwordDialog").showModal();
+        }
+      </script>
     </article>
     <footer>
       <a title="Inside Thoughts" href="/">Inside Thoughts</a>
